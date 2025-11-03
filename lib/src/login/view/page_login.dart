@@ -45,7 +45,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget _backgroundCover(BuildContext context) {
     return Container(
       width: double.infinity,
-      color: CustomColors.colorFundoPrimario,
+      color: Colors.white,
     );
   }
 

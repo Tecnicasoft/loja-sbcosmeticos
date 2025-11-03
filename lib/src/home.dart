@@ -6,7 +6,6 @@ import 'package:petshop_template/src/config/custom_colors.dart';
 import 'package:petshop_template/src/empresas/view/page_lojas.dart';
 import 'package:petshop_template/src/menu/view/page_menu.dart';
 import 'package:petshop_template/src/pedidos/view/page_pedidos.dart';
-import 'package:petshop_template/src/pets/view/page_pets.dart';
 import 'package:petshop_template/src/produtos/view/page_categorias.dart';
 import 'package:petshop_template/src/produtos/view/page_produtos_promo.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -127,7 +126,7 @@ class _HomePageState extends State<HomePage>
     const PageCategorias(),
     const PagePedidos(),
     const PageLojas(),
-    const PagePets(),
+    //const PagePets(),
     const MenuPage(), // Menu agora é o último item
   ];
 
@@ -217,11 +216,11 @@ class _HomePageState extends State<HomePage>
                 label: 'Lojas',
                 activeIcon: _buildActiveIcon(Icons.storefront),
               ),
-              BottomNavigationBarItem(
-                icon: const Icon(Icons.pets_outlined),
-                label: 'Meus Pets',
-                activeIcon: _buildActiveIcon(Icons.pets),
-              ),
+              // BottomNavigationBarItem(
+              //   icon: const Icon(Icons.pets_outlined),
+              //   label: 'Meus Pets',
+              //   activeIcon: _buildActiveIcon(Icons.pets),
+              // ),
               BottomNavigationBarItem(
                 icon: const Icon(Icons.menu),
                 label: 'Menu',
