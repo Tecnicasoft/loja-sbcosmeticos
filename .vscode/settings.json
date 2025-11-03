@@ -1,0 +1,7 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "dart.previewFlutterUiGuides": true,
+  "indentRainbow.indicatorStyle": "light",
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.debuggerNumberFormat": "decimal"
+}
